@@ -1,0 +1,35 @@
+body{
+    background: url(purple-day-thumb.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.card{
+    background: transparent;
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+div :hover {
+    transition: .3s;
+    backdrop-filter: blur(10px);
+    transform: scale(2);
+    border: transparent;
+    
+}
