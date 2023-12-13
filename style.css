@@ -25,6 +25,7 @@ body{
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     color: white;
+    transition: .3s;
 }
 div :hover {
     transition: .3s;
